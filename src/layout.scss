@@ -12,10 +12,10 @@
     }
     
     @include md{
-        background-color: grey;
+        background-color: white;
     }
     @include sm{
-        background-color:red;
+        background-color:white;
     }
 
 }
