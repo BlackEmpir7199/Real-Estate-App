@@ -1,0 +1,24 @@
+@import "../responsive.scss";
+
+.herosection{
+    display: flex;
+    flex-direction:row;
+    height: 100%;
+    position: relative;
+
+    .textcontainer{
+        flex:3;
+    }
+
+    .imgcontainer{
+        flex: 2.075;
+        background-color: #fcf5f3; 
+        img{
+            position:absolute;
+            right: 0;
+            height: 105%;
+        }
+    }
+
+
+}
